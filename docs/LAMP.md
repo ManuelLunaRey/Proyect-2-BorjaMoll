@@ -24,3 +24,35 @@ Then we go to the **/var/www/html** folder with the `cd` command and inside we w
 In the **index.php** file we will put the line `<? php phpinfo (); ?>`.
 
 Then we will execute the command `sudo service apache2 restart` for the changes to take effect.
+
+ # MySQL INSTALL 
+
+
+First of all we update the database of cloud shell
+
+`sudo apt update`
+
+Now we install the MySQL package
+
+`sudo apt install mysql-server`
+
+## Configure MySQL
+Now let's configure MySQL
+
+
+The safest thing is that if we try to do something with mysql it will give us some kind of error, Most likely it is because the process is off.
+
+To check if it is on we execute the following command
+
+`sudo service mysql status`
+
+If it shows us that it is not on, we initialize it with the following command
+
+`sudo service mysql start`
+
+To enter into MySQL we use the following command
+
+
+`mysqladmin -p -u root version`
+
+
