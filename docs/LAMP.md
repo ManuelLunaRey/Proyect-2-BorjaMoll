@@ -101,4 +101,29 @@ and at the end of the file we add the following line:
 
 and we restart apache again.
 
+# WORDPRESS INSTALL
+
+First of all We need mariadb or mysql,and do a sudo update to resynchronize the ubutnu package files over the internet and we execute the command "wget" with the wordpress link and unzip the downloaded file with the comand "tar"
+```
+sudo apt update
+sudo wget https://wordpress.org/latest.tar.gz
+tar xpf latest.tar.gz
+```
+The wordpress folder that contains the complete installation will be unzipped, we can install it in the following path / var / www / html but first we will delete that html folder and we copy the installation in the same path
+```
+rm -rf /var/www/html
+cp -r wordpress /var/www/html
+```
+Then we will execute the command `sudo service apache2 restart` 
+for the changes to take effect.
+
+now we go to the path where the "wordpress" folder is and we configure the wp_confing-sample.php file and edit the last lines with the following lines modifying the link that will be ours from wordpress
+```
+require_once ABSPATH . 'wp-settings.php';
+define('WP_HOME','https://8080-1278002a-297c-4e63-88bb-721fda8e35e4.europe-west1.cloudshell.dev/');
+define('WP_SITEURL','https://8080-1278002a-297c-4e63-88bb-721fda8e35e4.europe-west1.cloudshell.dev/');
+$_SERVER['HTTP_HOST'] = $_SERVER['HTTP_X_FORWARDED_HOST']; 
+```
+Then we restart again the service apache2 and enter to the wordpress and click on "lets do this"
+
 
