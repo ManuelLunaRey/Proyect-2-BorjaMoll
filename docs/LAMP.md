@@ -55,4 +55,50 @@ To enter into MySQL we use the following command
 
 `mysqladmin -p -u root version`
 
+# INSTALL PHPMYADMIN
+
+In order to install this, we must have all the previous steps installed
+
+First of all we update the repositories with the following command:
+
+`sudo apt update`
+
+Now we can install phpmyadmin
+
+`sudo apt install phpmyadmin php7.0-mbstring php7.0-gettext`
+
+We are going to configure MYSQL users so they can access phpmyadmin. In the case that we do not have any user created we can use the following command to create them (within mysql):
+
+`CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'tu_contrasena';`
+
+And to give privileges to this we use:
+
+`GRANT ALL PRIVILEGES ON * . * TO 'nombre_usuario'@'localhost';`
+
+We can use the root user for that if we don't want a user to have that kind of permissions, since it is created by default.
+
+To change the password to root we use the following command:
+
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';`
+
+In case this command does not work we can use the following:
+
+`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';`
+
+If when we try to enter the phpmyadmin page it gives us an error, we must modify a file in the path **/etc/php5/apache2/php.ini**
+
+Here we must find and unmark a specific line:
+
+`extension=msql.so`
+
+Now we must restart the apache service.
+
+If the problem persists, we go to the file
+**/etc/apache2/apache2.conf**
+and at the end of the file we add the following line:
+
+`Include /etc/phpmyadmin/apache.conf`
+
+and we restart apache again.
+
 
