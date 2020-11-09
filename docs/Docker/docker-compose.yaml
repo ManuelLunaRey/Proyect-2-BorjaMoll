@@ -17,3 +17,15 @@ services:
       MYSQL_ROOT_PASSWORD: secret
     volumes:
       - mysql-data:/var/lib/mysql
+      
+   phpmyadmin:
+    image: phpmyadmin / phpmyadmin: 5.0.1
+    reiniciar: siempre
+    entorno:
+      PMA_HOST: mysql-server
+      PMA_USER: root
+      PMA_PASSWORD: secreto
+    puertos:
+      - "5000: 80"
+volúmenes:
+  mysql-data:
