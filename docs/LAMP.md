@@ -21,7 +21,7 @@ To install PHP we will execute the command:
 `apt install php7.0 php7.0-mysql`
 
 Then we go to the **/var/www/html** folder with the `cd` command and inside we will create the **index.php** file where we will delete the **index.html**.
-In the **index.php** file we will put the line `<? php phpinfo (); ?>`.
+In the **index.php** file we will put the line `<?php phpinfo ();?>`.
 
 Then we will execute the command `sudo service apache2 restart` for the changes to take effect.
 
