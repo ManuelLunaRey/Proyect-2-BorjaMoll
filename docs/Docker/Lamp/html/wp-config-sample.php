@@ -31,9 +31,10 @@ define( 'DB_PASSWORD', 'password_here' );
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 
+/** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
-/** dsThe Database Collate type. Don't change this if in doubt. */
+/** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
 /**#@+
@@ -87,6 +88,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-define('WP_HOME','https://8080-1278002a-297c-4e63-88bb-721fda8e35e4.europe-west1.cloudshell.dev/');
-define('WP_SITEURL','https://8080-1278002a-297c-4e63-88bb-721fda8e35e4.europe-west1.cloudshell.dev/');
-$_SERVER['HTTP_HOST'] = $_SERVER['HTTP_X_FORWARDED_HOST'];
