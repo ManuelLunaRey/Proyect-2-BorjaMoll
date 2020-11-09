@@ -9,3 +9,11 @@ services:
       - "./html/:/var/www/html/"
     ports:
       - "8080:80"
+      
+  mysql-server:
+    image: mysql:8.0.19
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+    volumes:
+      - mysql-data:/var/lib/mysql
