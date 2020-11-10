@@ -6,7 +6,7 @@ In the lamp file we will put:
 - The mysql installation
 - Installing wordpress
 
-# docker compose commands:
+# Docker compose commands:
 
 Once installed you have to give it permissions:
 
@@ -18,7 +18,7 @@ To know the version of docker compose we use the following command:
 
 For the docker compose services to work we must activate a document called **docker-compose.yaml**
 
-once the services are written, to raise them we use the command:
+Once the services are written, to raise them we use the command:
 
 `docker-compose up -d`
 
