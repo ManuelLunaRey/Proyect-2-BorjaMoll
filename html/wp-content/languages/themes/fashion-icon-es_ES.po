@@ -1,0 +1,147 @@
+# Translation of Themes - Fashion Icon in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Fashion Icon package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-26 10:01:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Fashion Icon\n"
+
+#: functions.php:492
+msgid "Mobile"
+msgstr "Móvil"
+
+#: functions.php:482
+msgid "primary menu toggle"
+msgstr "alternar el menú principal"
+
+#: functions.php:962
+msgid " Fashion Icon | Developed By "
+msgstr " Fashion Icon | Desarrollado por "
+
+#: functions.php:964
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"
+
+#: functions.php:964
+msgid " Powered by %s"
+msgstr " Funciona con %s"
+
+#: functions.php:594
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:593
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:592
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:483
+msgid "Menu"
+msgstr "Menú"
+
+#: functions.php:338
+msgid "This is the home page layouts for your blog."
+msgstr "Estos son los diseños para la página de inicio de tu blog."
+
+#: functions.php:337
+msgid "Home Page Layouts"
+msgstr "Diseños de página de inicio"
+
+#: functions.php:316
+msgid "Home Page Layout"
+msgstr "Diseño de la página de inicio"
+
+#: functions.php:303
+msgid "This is the header layouts for your blog."
+msgstr "Estos son los diseños de cabecera para tu blog."
+
+#: functions.php:302
+msgid "Header Layouts"
+msgstr "Diseños de cabecera"
+
+#: functions.php:281
+msgid "Header Layout"
+msgstr "Diseño de la cabecera"
+
+#: functions.php:261
+msgid "Primary color of the theme."
+msgstr "Color principal del tema."
+
+#: functions.php:260
+msgid "Primary Color"
+msgstr "Color principal"
+
+#: functions.php:237
+msgid "Change the font size of your site."
+msgstr "Cambia el tamaño de la fuente de tu sitio."
+
+#: functions.php:236
+msgid "Font Size"
+msgstr "Tamaño de la fuente"
+
+#: functions.php:214
+msgid "Secondary font of the site."
+msgstr "Fuente secundaria del sitio."
+
+#: functions.php:213
+msgid "Secondary Font"
+msgstr "Fuente secundaria"
+
+#: functions.php:192
+msgid "Primary font of the site."
+msgstr "Fuente principal del sitio."
+
+#: functions.php:191
+msgid "Primary Font"
+msgstr "Fuente principal"
+
+#: functions.php:171
+msgid "Typography"
+msgstr "Tipografía"
+
+#: functions.php:156
+msgid "Change the font size of your site title."
+msgstr "Cambia el tamaño de la fuente del título de tu sitio."
+
+#: functions.php:155
+msgid "Site Title Font Size"
+msgstr "Tamaño de fuente del título del sitio"
+
+#: functions.php:133
+msgid "Site title and tagline font."
+msgstr "Fuente del título y descripción corta del sitio."
+
+#: functions.php:132
+msgid "Site Title Font"
+msgstr "Fuente del título del sitio"
+
+#: functions.php:103
+msgid "%1$sDocumentation Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sEnlace a la documentación:%2$s %3$sHaz clic aquí.%4$s"
+
+#: functions.php:101
+msgid "%1$sDemo Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sEnlace a la demostración:%2$s %3$sHaz clic aquí.%4$s"
+
+#: functions.php:86
+msgid "Demo & Documentation"
+msgstr "Demostración y documentación"
+
+#. Author of the theme
+#: functions.php:963
+msgid "Blossom Themes"
+msgstr "Blossom Themes"

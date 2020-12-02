@@ -1,0 +1,139 @@
+# Translation of Themes - Fashion Icon in English (UK)
+# This file is distributed under the same license as the Themes - Fashion Icon package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-05 12:23:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - Fashion Icon\n"
+
+#: functions.php:962
+msgid " Fashion Icon | Developed By "
+msgstr " Fashion Icon | Developed By "
+
+#: functions.php:964
+msgid "https://wordpress.org/"
+msgstr "https://en-gb.wordpress.org/"
+
+#: functions.php:964
+msgid " Powered by %s"
+msgstr " Powered by %s"
+
+#: functions.php:594
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:593
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:592
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:483
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:338
+msgid "This is the home page layouts for your blog."
+msgstr "These are the homepage layouts for your blog."
+
+#: functions.php:337
+msgid "Home Page Layouts"
+msgstr "Homepage Layouts"
+
+#: functions.php:316
+msgid "Home Page Layout"
+msgstr "Homepage Layout"
+
+#: functions.php:303
+msgid "This is the header layouts for your blog."
+msgstr "These are the header layouts for your blog."
+
+#: functions.php:302
+msgid "Header Layouts"
+msgstr "Header Layouts"
+
+#: functions.php:281
+msgid "Header Layout"
+msgstr "Header Layout"
+
+#: functions.php:261
+msgid "Primary color of the theme."
+msgstr "Primary colour of the theme."
+
+#: functions.php:260
+msgid "Primary Color"
+msgstr "Primary Colour"
+
+#: functions.php:237
+msgid "Change the font size of your site."
+msgstr "Change the font size of your site."
+
+#: functions.php:236
+msgid "Font Size"
+msgstr "Font Size"
+
+#: functions.php:214
+msgid "Secondary font of the site."
+msgstr "Secondary font of the site."
+
+#: functions.php:213
+msgid "Secondary Font"
+msgstr "Secondary Font"
+
+#: functions.php:192
+msgid "Primary font of the site."
+msgstr "Primary font of the site."
+
+#: functions.php:191
+msgid "Primary Font"
+msgstr "Primary Font"
+
+#: functions.php:171
+msgid "Typography"
+msgstr "Typography"
+
+#: functions.php:156
+msgid "Change the font size of your site title."
+msgstr "Change the font size of your site title."
+
+#: functions.php:155
+msgid "Site Title Font Size"
+msgstr "Site Title Font Size"
+
+#: functions.php:133
+msgid "Site title and tagline font."
+msgstr "Site title and tagline font."
+
+#: functions.php:132
+msgid "Site Title Font"
+msgstr "Site Title Font"
+
+#: functions.php:103
+msgid "%1$sDocumentation Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sDocumentation Link:%2$s %3$sClick here.%4$s"
+
+#: functions.php:101
+msgid "%1$sDemo Link:%2$s %3$sClick here.%4$s"
+msgstr "%1$sDemo Link:%2$s %3$sClick here.%4$s"
+
+#: functions.php:86
+msgid "Demo & Documentation"
+msgstr "Demo & Documentation"
+
+#. Author of the theme
+#: functions.php:963
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
